@@ -1,78 +1,60 @@
-🚀 Kotlin Playground
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,100:020617&height=140&section=header&text=🚀%20Kotlin%20Playground&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-Welcome to my Kotlin learning repository! 👨‍💻
-This repo contains all the Kotlin programs, concepts, and practice problems that I am learning on my own, beyond my college syllabus.
-
----
-
-📌 About
-
-I am currently pursuing B.Tech in Computer Engineering and exploring Kotlin independently to strengthen my programming skills and expand beyond academic boundaries.
-
-This repository is a reflection of my self-learning journey in Kotlin 💡
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Android%20%26%20Syntax-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Self--Learning-brightgreen?style=for-the-badge" />
+</p>
 
 ---
 
-🎯 Goals
+## 📌 About
 
-- Learn Kotlin from basics to advanced
-- Understand real-world programming concepts
-- Practice problem-solving
-- Build a strong foundation for Android & backend development
+Welcome to **Kotlin Playground**! This repository documents my independent self-learning journey in Kotlin beyond university academics, aiming to build strong foundations for Android app development and backend architecture.
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
 
+```text
 Kotlin-Playground/
 │
-├── Basics/              # Variables, Data Types, Input/Output
-├── Control-Flow/       # If-Else, When, Loops
-├── Functions/          # Functions & Recursion
-├── OOP/                # Classes, Objects, Inheritance
-├── Collections/        # Lists, Sets, Maps
-├── Practice/           # Problem-solving programs
-└── Mini-Projects/      # Small projects (if added later)
+├── 📁 01-Basics-and-Syntaxes/       # Variables, loops, functions & type conversion
+│   ├── Hello_World.kt
+│   ├── Variables_and_Data_Type.kt
+│   ├── if-else.kt
+│   ├── When.kt
+│   ├── For_Loop.kt
+│   ├── While_Loop.kt
+│   ├── Simple_Function.kt
+│   ├── User_Input.kt
+│   └── Type_Conversion.kt
+│
+└── 📁 02-Logic-Codes/               # Fundamental math & logic implementations
+    ├── 01_Factorial.kt
+    ├── 02_Fibonacci.kt
+    ├── 03_Palindrome.kt
+    └── 04_PrimeCheck.kt
+```
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ How to Run
 
-- Language: Kotlin
-- IDE: IntelliJ IDEA / VS Code
+### Using Kotlinc Command Line:
+```bash
+# Compile Kotlin File
+kotlinc 01-Basics-and-Syntaxes/Hello_World.kt -include-runtime -d HelloWorld.jar
 
----
-
-📈 Progress
-
-- [x] Basics
-- [x] Control Flow
-- [ ] Functions
-- [ ] OOP
-- [ ] Collections
-- [ ] Mini Projects
+# Execute JAR
+java -jar HelloWorld.jar
+```
 
 ---
 
-💡 Why this repo?
+## 👨‍💻 Author
 
-This is not part of my university syllabus (SPPU).
-I am learning Kotlin on my own to improve my coding skills and explore modern programming languages.
-
----
-
-🤝 Contributions
-
-This is a personal learning repo, but suggestions are always welcome!
-
----
-
-⭐ Support
-
-If you find this helpful or inspiring, consider giving it a star ⭐
-
----
-
-📬 Connect with Me
-
-Feel free to connect with me for collaboration or discussions!
+**Vedant Bakre**  
+*First Year B.Tech – Computer Engineering (SPPU)*
