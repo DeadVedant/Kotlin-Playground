@@ -57,4 +57,4 @@ java -jar HelloWorld.jar
 ## 👨‍💻 Author
 
 **Vedant Bakre**  
-*First Year B.Tech – Computer Engineering (SPPU)*
+*Second Year B.Tech – Computer Engineering (SPPU)*
